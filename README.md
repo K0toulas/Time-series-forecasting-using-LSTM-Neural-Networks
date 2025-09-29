@@ -1,4 +1,4 @@
-# Bitcoin Price Prediction using LSTM Neural Networks 
+# Time series forecasting using LSTM-Neural-Networks 
 
 This project implements and evaluates a three-layer **Long Short-Term Memory (LSTM)** neural network to predict the minute-by-minute closing price of Bitcoin. It compares the performance of the advanced LSTM model against a traditional time-series forecasting method, **ARIMA**, to demonstrate the superior capability of deep learning in handling highly volatile and non-linear cryptocurrency data.
 
@@ -69,6 +69,7 @@ You need **Python 3** and the following libraries. Install them using `pip`:
    
         ```bash
         python project.py
+        **NOTE:** The training process, especially for Model 1 (35 hours), is computationally intensive and will **take a long time to complete** (approximately 13-35 hours depending on your chosen parameters and hardware).
    
 The script will perform the following actions:
 * Load and normalize the data.
