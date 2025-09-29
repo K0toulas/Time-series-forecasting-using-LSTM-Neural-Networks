@@ -79,7 +79,7 @@ The script will perform the following actions:
 * Display the training MSE plot.
 * Perform validation on the last 10 days of historic data, calculate Validation MSE, and display the validation plot.
 * Perform the 10-day forecast for both the LSTM and ARIMA models, displaying the final comparative plot.
-* ***take a long time to complete***
+* ** IMPORTANT WARNING:** Due to the large dataset size and the complexity of the LSTM architecture, running the full script (including training) is a time-intensive process that can take **over 30 hours** depending on your CPU/GPU resources
 
 ---
 ### Results Summary
